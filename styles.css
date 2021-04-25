@@ -18,7 +18,16 @@ button {
     height: 100%;
 }
 
+.enter {
+    background-color: green;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
 .display {
+    text-align: right;
     grid-column-start: 1;
     grid-column-end: 6;
     border-style: solid;
